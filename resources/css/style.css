@@ -85,8 +85,9 @@ h4 {
 
 .h4 {
     font-weight: 300;
-    font-size: 100%;
+    font-size: 120%;
     padding-top: 40px !important;
+    text-align: center;
 }
 
 .about {
@@ -155,6 +156,13 @@ h4 {
     background-color: #fff;
 }
 
+.section-tentang {
+    background-color: #fff;
+}
+
+.hitam {
+    color: #000;
+}
 /* GALLERY */
 .section-gallery{
     padding:0;
@@ -172,27 +180,31 @@ h4 {
 }
 
 .tea-photo {
+    padding-top: 50px;
     width: 100%;
     margin: 0;
     overflow: hidden;
-    background-color: #000; 
 }
 .tea-photo img{
     width: 100%;
     height: auto;
-    transform: scale(1.15);
-    opacity: 0.7;
+    transform: scale(1);
+    opacity: 5;
     transition: 1s;
 }
 
 .tea-photo img:hover{
     width: 100%;
     height: auto;
-    transform: scale(1.05);
-    opacity: 2;
+    transform: scale(1.15);
+    opacity: 1;
 }
 
 /* STRUKTUR */
+.struktur {
+    background-color: #fff;    
+}
+
 .owner {
     display: flexbox;
 }
@@ -207,24 +219,14 @@ h4 {
 }
 
 .foto {
-    width: 100px;
+    width: 200px;
     height: auto;
     border-radius: 50%; 
 }
-
-/* KONTAK */
+/* Kontak */
 .kontak {
     background-color: #fff;
 }
-
-.kontak label {
-    color: #000;
-}
-
-.kirim {
-    margin-left: 24%;
-}
-
 .h2 {
     color: #000;
     text-transform: uppercase;
@@ -247,29 +249,15 @@ h4 {
     margin-bottom: 30px;
 }
 
-.kontak-form {
-    margin-top: 5%;
+.sosial {
+    margin-top: 90px;
     position: relative;
-    left: 28%;
+    left: 50%;
+    transform: translate(-50%);
 }
 
-input[type=text],
-input[type=email],
-textarea {
-    width: 100%;
-    padding: 7px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-}
-
-.btn-full {
-    color:#888;
-    background-color: #fefefe;
-}
-
-.btn-full:hover {
-    color:#fefefe;
-    background-color: #888;
+.me {
+    text-align: center;
 }
 
 /* FOOTER */
@@ -280,7 +268,7 @@ textarea {
     text-align: center;
 }
 
-.social-links {
+.social {
     padding-top: 80px;
     padding-left: 50px;
     padding-right: 50px;
@@ -295,8 +283,8 @@ textarea {
     float: left;
 }
 
-.social-links li a:link,
-.social-links li a:visited {
+.social li a:link,
+.social li a:visited {
     font-size: 160%;
     color: #999;
 }
@@ -307,4 +295,8 @@ textarea {
 
 .ion-social-twitter:hover {
     color: #00a1d6;
+}
+
+.ion-social-whatsapp:hover{
+    color: #04a02b;
 }
